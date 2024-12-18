@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-17T17:38:29 IST" name="Suite" finished-at="2024-12-17T17:39:11 IST" duration-ms="41823">
+    <groups>
+    </groups>
+    <test started-at="2024-12-17T17:38:29 IST" name="Test" finished-at="2024-12-17T17:39:11 IST" duration-ms="41823">
+      <class name="tests.TS_003_DashboardTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tests.TS_003_DashboardTest@606e4010]" started-at="2024-12-17T17:38:29 IST" name="openBrowser" finished-at="2024-12-17T17:38:51 IST" duration-ms="22098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="seeWelcomeUserMessage()[pri:0, instance:tests.TS_003_DashboardTest@606e4010]" started-at="2024-12-17T17:38:51 IST" name="seeWelcomeUserMessage" finished-at="2024-12-17T17:39:11 IST" duration-ms="19436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seeWelcomeUserMessage -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:tests.TS_003_DashboardTest@606e4010]" started-at="2024-12-17T17:39:11 IST" name="takeScreenshot" finished-at="2024-12-17T17:39:11 IST" duration-ms="25" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=seeWelcomeUserMessage status=SUCCESS method=TS_003_DashboardTest.seeWelcomeUserMessage()[pri:0, instance:tests.TS_003_DashboardTest@606e4010] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+      </class> <!-- tests.TS_003_DashboardTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
